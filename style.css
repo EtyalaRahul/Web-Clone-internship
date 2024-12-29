@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scroll-section {
+    background-color: #0f172a;
+}
+
+.scroll-section h1 {
+    font-family: Satoshi, sans-serif;
+    font-weight: 700;
+    color: #f1f5f9;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.scroll-img {
+    height: 52px;
+}
+
+.marquee-div {
+    animation: scroll-animation 20s linear infinite;
+    padding: 20px;
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-content{
+    padding: 30px;
+}
+.scroll-section{
+    padding: 70px;
+}
